@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="static-part">
+         <div class="static-part-pic"></div>
+     
+         <ul  class="static-part-list">
+            <li><a  href="#about">ABOUT</a></li>
+            <li><a  href="#experience">EXPERIENCE</a></li>
+            <li><a  href="#education">EDUCATION</a></li>
+            <li><a  href="#skills">SKILLS</a></li>
+            <li><a  href="#interest">INTEREST</a></li>
+            <li><a  href="#contact">CONTACT</a></li>
+        </ul>
+     </div>
+                              <!-- nonStatic-part starts -->
+
+     <div class="nonStatic-part">
+                            <!-- main portion starts -->
+       <h3> PORTFOLIO</h3>
+        <div class="main">
+            <h1>Hi, My name is <p class="main-para">Prasoon Chauhan<p>
+                and I am a passionate
+                <p class="main-para">Web Developer</p>
+            </h1>
+            <div class="main-pic">
+                <img src="/main-pic.avif" style="height: 200px; background-color: #DDFFE7;">
+            </div>
+        </div>
+        <div main-logo>
+            <a href="https://www.linkedin.com/in/prasoon-chauhan-6aa2ba2a0" target="target_blank"><img src="/linkedin.png"  style="height: 3rem; width: 3rem; margin-left: 11rem;"></a>
+            <a href="https://twitter.com" target="target_blank"><img src="/twitter.png"   style="height: 3rem; width: 3rem; margin-left: 11rem;"></a>
+            <a href="https://github.com/PrasoonChauhan" target="target_blank"><img src="/github.png"    style="height: 3rem; width: 3rem; margin-left: 11rem;"></a>
+            <a href="https://www.instagram.com/thisis_prasoon/?hl=en" target="target_blank"><img src="/instagram.png" style="height: 3rem; width: 3rem; margin-left: 11rem;"></a>
+        </div>
+                            <!-- about portion starts -->
+
+        <div id="about" class="about">
+            <h1 id="about-heading">About</h1>
+            <div class="about-section">
+                <div>
+                    <h2>Name:</h2>
+                    <p>Prasoon Chauhan</p>
+                </div>
+                <div>
+                    <h2>Age:</h2>
+                    <p>20 years</p>
+                </div>
+                <div>
+                    <h2>City:</h2>
+                    <p>Bareilly</p>
+                </div>
+                <div>
+                    <h2>Country:</h2>
+                    <p>India</p>
+                </div>
+                <div>
+                    <h2>Phone:</h2>
+                    <p><a href="#">7017090830</a></p>
+                </div>
+                <div>
+                    <h2>Degree:</h2>
+                    <p>B-tech(Pursuing)</p>
+                </div>
+                <div>
+                    <h2>Email:</h2>
+                    <p><a href="#">prasoon.chauhan132@gmail.com</a></p>
+                </div> 
+                <div>
+                    <h2>Freelance:</h2>
+                    <p>Available</p>
+                </div>               
+
+                
+            </div>
+        </div>
+                        <!-- EXPERIENCE portion starts -->
+        <div id="experience" class="experience">
+            <h1>Experience</h1>
+           <ul> 
+             <li> Frontend Developer</li>
+             <li> Web Designing</li>
+                <li>Freelancing</li>
+           </ul>
+        </div>                
+                        <!-- education portion starts -->
+        <div id="education" class="education">
+            <h1>Education</h1>
+            <p class="education-institute">&#8658 JSSATE</p>
+            <p id="education-standard-1" class="education-standard">B-tech (Pursuing)</p>
+            <p id="education-address-jss-1"  class="education-address-jss">Noida</p>
+         
+            <p class="education-institute">&#8658 Alma Mater School</p>
+            <p id="education-standard-2" class="education-standard">12th Standard</p>
+            <p id="education-address-2" class="education-address">Bareilly</p>
+            <p id="education-result-2" class="education-result">Result: 89%</p>
+
+            <p class="education-institute">&#8658 Alma Mater School</p>
+            <p id="education-standard-3" class="education-standard">10th Standard</p>
+            <p id="education-address-3" class="education-address">Bareilly</p>
+            <p  id="education-result-3" class="education-result">Result: 91%</p>   
+        </div>
+                                 <!-- skills portion starts -->
+        <div id="skills" class="skills">
+            <h1>Skills</h1>
+           <div class="skills-img">
+            <img src="/html.png" >
+            <img src="/css.png" >
+            <img src="/java script.png" >
+            <img src="/c++.png" >
+            <img src="/react js.png" >
+           </div>
+        </div>
+      
+
+                                 <!-- Interest portion starts -->
+        <div id="interest" class="interest">
+            <h1>Interest</h1>
+            <p>Apart From Being A Webdeveloper <br><br>I Enjoy Most Of My Life in  Travelling and Reading Novels<br><br>
+            My Hobbies are Dancing and Listening Music<br><br>
+            I like To Play Cricket and Vollyball Alot<br><br>
+            I Like To Do Treking add Playing Adventurous Sports<br><br>
+            I am a Fitness Enthusiast ! 
+
+            </p>
+        </div>
+    
+
+                                  <!-- contact portion starts -->
+         <div id="contact" class="contact">
+            <h1>Contact</h1>
+           <h2>Let's Get In Touch!</h2>   
+           <p>Ready to start your project with us? <br>
+              Send us messages and we will get back to you as soon as possible!</p>    
+             <div class="contact-input"> 
+               <input id="fullName" type="text" placeholder="  Full name"> <br>                 
+               <input id="emailAdd" type="text" placeholder="  Email address"> <br>                 
+               <input id="PhoneNum" type="text" placeholder="  Phone number"> <br>                 
+               <input type="text" placeholder="  Message" style="height: 6rem;"> <br>   
+               <button id="contact-submit-button" onclick="submitFunction()">SUBMIT</button>
+             </div> 
+                       
+         </div>
+                                    <!-- footer starts -->
+        <footer>
+            <div class="footer-myInfo">
+                <div class="footer-myInfo-add">
+                    <img src="/location.png" >
+                    <p class="my-info">WHERE TO FIND ME</p><br>
+                    <p>Sector 62, Noida</p>
+                </div>
+                <div class="footer-myInfo-email">
+                    <img src="/gmail_732200.png" >
+                    <p class="my-info" style="text-align: center;">EMAIL ME AT</p><br>
+                    <p><a href="##">prasoon.chauhan132@gmail.com</a></p>
+                    
+                </div>
+                <div class="footer-myInfo-phone">
+                    <img src="/call.png" >
+                    <p class="my-info" style="text-align: center;">CALL ME AT</p><br>
+                    <p>(+91)7017090830</p>
+                </div>
+            </div>
+                <p id="copyright">© Copyright 2023<br>Design by Prasoon</p>
+            
+        </footer>
+        
+    </div>
+
+    </div>
+
+<script src="index.js"></script>
+</body>
+</html>
